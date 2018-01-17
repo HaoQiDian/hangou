@@ -1,0 +1,181 @@
+.todo-content.card-content-inner {
+	width: 80%;
+	height: 5rem
+}
+
+.card-content.todo-card,
+.card-content.todo-card .control-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+
+.card-content.todo-card .control-box {
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.finished {
+	border: 1px solid #2ada38
+}
+
+.content {
+	padding-bottom: 2.5rem
+}
+
+nav.bar {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	background: none;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border: none;
+	box-shadow: none
+}
+
+.circle {
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 2rem;
+	color: #fff;
+	font-size: 10px;
+	transition: all .3s
+}
+
+.circle.all {
+	background: #fff;
+	color: #1568d4;
+	border: 1px solid #1568d4
+}
+
+.circle.all.active {
+	border: none;
+	background: #1568d4;
+	color: #fff
+}
+
+.circle.unfinish {
+	background: #fff;
+	color: #d82721;
+	border: 1px solid #d82721
+}
+
+.circle.unfinish.active {
+	border: none;
+	background: #d82721;
+	color: #fff
+}
+
+.circle.finish {
+	background: #fff;
+	color: #15d435;
+	border: 1px solid #15d435
+}
+
+.circle.finish.active {
+	border: none;
+	background: #15d435;
+	color: #fff
+}
+
+.mask {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	z-index: 999;
+	background: rgba(0, 0, 0, .2);
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center
+}
+
+.insert-box,
+.mask {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.insert-box {
+	width: 70%;
+	height: 15rem;
+	background: #fff;
+	border-radius: .5rem;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-pack: distribute;
+	justify-content: space-around
+}
+
+.insert-box textarea {
+	width: 80%;
+	height: 50%;
+	border: 1px solid #e0e0e0
+}
+
+.insert-box .btn-box {
+	width: 70%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	justify-content: space-around
+}
+
+.card.normal .todo-card {
+	width: 100%
+}
+
+.card.normal .check-box {
+	display: none
+}
+
+.select.card {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.select.card .todo-card {
+	width: 90%
+}
+
+.check-box {
+	width: 10%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+
+/*# sourceMappingURL=app.711a060682c3ced72782897360a7332d.css.map */
